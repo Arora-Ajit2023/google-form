@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: 4rem 0;
+}
+
+.main {
+  width: 50%;
+  border: 1px solid rgb(201, 201, 209);
+  border-radius: 6px;
+}
+.containt {
+  display: flex;
+}
+.left-side {
+  margin: 4rem 2rem;
+  width: 60%;
+  height: auto;
+}
+.email-style {
+  margin-top: 1rem;
+}
+.right-side {
+  width: 40%;
+}
+.styleside-image {
+  display: flex;
+  justify-content: center;
+  height: 100;
+}
+
+.form-header {
+  margin-top: 0.8rem;
+  font-size: 1.5rem;
+}
+input {
+  border: 1px solid rgb(201, 201, 209);
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+}
+.input-style {
+  gap: 9px;
+  width: 100%;
+  display: inline-flex;
+}
+.user-field {
+  width: 50%;
+}
+.email-field {
+  margin-top: 2rem;
+  border: 1px solid rgb(201, 201, 209);
+  border-radius: 6px;
+}
+.email-field input {
+  width: 80%;
+  border: none;
+}
+.domain-style {
+  display: inline-block; margin-left:8rem ;width:20%"
+}
+.email-helpertext{
+  padding-inline-start: 0.8rem;
+  color:rgb(104, 104, 106) 
+}
+.btn{
+  margin-top: 0.4rem;
+  border-radius: 6px;
+  width: 70%;
+}
+.btn p {
+  padding:0.5rem 0.3rem;
+  color:#1a73e8;
+  font-weight: 600 bold;
+  
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: rgb(246, 237, 237);
+}
+.password-style{
+  margin-top:1.5rem
+}
+.show-password{
+  width: 35%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.show-password input{
+  width:15px;
+  height: 20px
+}
+.show-password span{
+  font-weight: 500 ;
+  font-size: 0.9rem;
+}
+.buttons{
+  margin-top: 2.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.signin-style{
+  color:#1a73e8;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+.buttons button :hover{
+cursor: pointer;
+background-color: rgba(139, 69, 237,0.8) 
+} 
+.btn-next{
+  color: white;
+  background-color: rgb(139, 69, 237);
+  width: 20%;
+  border-radius: 6px;
+  border: none;
+  font-size: 0.9rem;
+}
+ .btn-next :hover{
+  background-color: rgba(139, 69, 237,0.2) !important;
+ }
+ .right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  margin: 1.8rem 0;
+}
+
+.side-image-textStyle{
+  width:200px ;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .center-container{
+    display: block;
+    
+    height: 100vh;
+    margin-top:1rem ;
+  }
+  .main{
+    width: 80vw;
+    border: none;
+  }
+  .containt{
+    display: block;
+  }
+  .left-side{
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+  .input-style{
+    display: block;
+    margin: 0 auto;
+  }
+  .user-field{
+    width: 100%;
+  }
+}
