@@ -49,7 +49,7 @@ input {
 }
 .input-style {
   gap: 9px;
-  width: 100%;
+  width:100%;
   display: inline-flex;
 }
 .user-field {
